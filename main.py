@@ -3,7 +3,7 @@ import requests
 from datetime import datetime, timedelta
 
 # === CONFIGURAZIONE ===
-EXCEL_URL = "https://1drv.ms/x/c/0036d3378d169619/EV_-UmqGt9xGp5h-o8tnoscBZX5VSTqbHjAXJRrqrEOmWA?e=oRhurf"  # Inserisci qui il link pubblico OneDrive del file Excel
+EXCEL_URL = "https://docs.google.com/spreadsheets/d/1OVQ5CahuJHj6U3C6bHVOrivbfO6Am9Rs/edit?usp=drive_link&ouid=112829895107649099129&rtpof=true&sd=true"  # Inserisci qui il link pubblico OneDrive del file Excel
 TELEGRAM_TOKEN = "8148480416:AAHzjWKeq6U5lQWMDMmNPqPhTwD71_KbsYs"         # Inserisci qui il token del tuo bot Telegram
 CHAT_ID = "26192011"                  # Inserisci qui il tuo chat ID Telegram
 
@@ -39,3 +39,4 @@ def check_deadlines():
 
 # === ESECUZIONE ===
 check_deadlines()
+
